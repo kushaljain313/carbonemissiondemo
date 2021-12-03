@@ -13,7 +13,7 @@ const DashBoard = () => {
       sx={{
         flexGrow: 1,
         bgcolor: "#E5F0FC",
-        height: 1800,
+        height: 2000,
         marginTop: "80px",
         width: "1100px",
       }}
@@ -38,7 +38,7 @@ const DashBoard = () => {
         sx={{
           flexGrow: 1,
           width: "1100px",
-          height: 1800,
+          height: 1900,
           display: "flex",
           flexDirection: "row",
           flexWrap: "wrap",
@@ -47,7 +47,7 @@ const DashBoard = () => {
         }}
       >
         <DashBoardGridLayout label="Emission By Category" width="560px">
-          <EmissionBarChart />
+          <EmissionBarChart height="250" />
         </DashBoardGridLayout>
 
         <DashBoardGridLayout label="Total Emission By Category" width="470px">
@@ -55,10 +55,12 @@ const DashBoard = () => {
         </DashBoardGridLayout>
 
         <DashBoardGridLayout label="Emission By Scope" width="560px">
-          <EmissionBarChart />
+          <EmissionBarChart height="250" />
         </DashBoardGridLayout>
 
-        <DashBoardGridLayout label="Emission By Suppliers" width="470px" />
+        <DashBoardGridLayout label="Emission By Suppliers" width="470px">
+          <EmissionBarChart height="250" />
+        </DashBoardGridLayout>
 
         <DashBoardGridLayout
           label="Electricity vs heat Consumption"
@@ -70,7 +72,9 @@ const DashBoard = () => {
         <DashBoardGridLayout
           label="Commuting Emissions by locations"
           width="470px"
-        />
+        >
+          <EmissionBarChart height="250" />
+        </DashBoardGridLayout>
       </Box>
     </Box>
   );

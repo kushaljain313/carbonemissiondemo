@@ -7,7 +7,7 @@ const DashBoardGridLayout = ({ label, width, children }) => {
     <Box
       sx={{
         bgcolor: "#fff",
-        height: 500,
+        height: 550,
         width: { width },
         mx: 2,
       }}
@@ -20,7 +20,6 @@ const DashBoardGridLayout = ({ label, width, children }) => {
           flexGrow: 1,
           bgcolor: "#3D2CA7",
           height: "40px",
-          maxWidth: "300px",
           display: "grid",
           alignContent: "center",
         }}

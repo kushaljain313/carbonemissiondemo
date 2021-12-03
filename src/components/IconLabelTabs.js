@@ -7,7 +7,6 @@ import PersonPinIcon from "@mui/icons-material/PersonPin";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import PropTypes from "prop-types";
-import Form from "./Form";
 
 import TravelPage from "../pages/TravelPage";
 

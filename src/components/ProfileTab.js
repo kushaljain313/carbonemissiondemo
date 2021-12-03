@@ -8,9 +8,9 @@ import Box from "@mui/material/Box";
 import IconLabelTabs from "./IconLabelTabs";
 import PersonPinIcon from "@mui/icons-material/PersonPin";
 
-import EmissionBarChart from "./Charts/EmissionBarChart";
-import EmissionPieChart from "./Charts/EmissionPieChart";
-import EmissionAreaChart from "./Charts/EmissionAreaChart";
+// import EmissionBarChart from "./Charts/EmissionBarChart";
+// import EmissionPieChart from "./Charts/EmissionPieChart";
+// import EmissionAreaChart from "./Charts/EmissionAreaChart";
 import DashBoard from "../pages/DashBoard";
 
 function TabPanel(props) {
@@ -72,7 +72,7 @@ export default function ProfileTabs() {
         noWrap
         component="div"
         sx={{
-          display: { xs: "none", sm: "block" },
+          // display: { xs: "none", sm: "block" },
           display: "flex",
           textAlign: "center",
           height: "100px",
